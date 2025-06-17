@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login UNKLAB</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(120deg, #003366, #0077b6);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .login-box {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+      width: 100%;
+      max-width: 380px;
+      transition: 0.3s ease;
+    }
+    .login-box:hover {
+      transform: scale(1.02);
+    }
+    .login-box h2 {
+      text-align: center;
+      color: #003366;
+      margin-bottom: 30px;
+    }
+    .input-group {
+      position: relative;
+      margin-bottom: 25px;
+    }
+    .input-group input {
+      width: 100%;
+      padding: 12px 40px 12px 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+      transition: 0.3s;
+    }
+    .input-group input:focus {
+      border-color: #0077b6;
+    }
+    .input-group i {
+      position: absolute;
+      top: 12px;
+      right: 15px;
+      color: #888;
+    }
+    .login-btn {
+      width: 100%;
+      padding: 12px;
+      background-color: #0077b6;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .login-btn:hover {
+      background-color: #005f8d;
+    }
+    .footer-text {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .footer-text a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-box">
+    <h2>Login UNKLAB</h2>
+    <form action="#" method="post">
+      <div class="input-group">
+        <input type="text" name="username" placeholder="Username atau NIM" required>
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="input-group">
+        <input type="password" name="password" placeholder="Password" required>
+        <i class="fas fa-lock"></i>
+      </div>
+      <button type="submit" class="login-btn">Masuk</button>
+    </form>
+    <div class="footer-text">
+      Belum punya akun? <a href="#">Daftar di sini</a>
+    </div>
+  </div>
+
+</body>
+</html>
+\end{code}
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registrasi UNKLAB</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(120deg, #003366, #0077b6);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .register-box {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+      width: 100%;
+      max-width: 400px;
+    }
+    .register-box h2 {
+      text-align: center;
+      color: #003366;
+      margin-bottom: 30px;
+    }
+    .input-group {
+      position: relative;
+      margin-bottom: 20px;
+    }
+    .input-group input {
+      width: 100%;
+      padding: 12px 40px 12px 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+      transition: 0.3s;
+    }
+    .input-group input:focus {
+      border-color: #0077b6;
+    }
+    .input-group i {
+      position: absolute;
+      top: 12px;
+      right: 15px;
+      color: #888;
+    }
+    .register-btn {
+      width: 100%;
+      padding: 12px;
+      background-color: #0077b6;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .register-btn:hover {
+      background-color: #005f8d;
+    }
+    .footer-text {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .footer-text a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="register-box">
+    <h2>Registrasi UNKLAB</h2>
+    <form action="#" method="post">
+      <div class="input-group">
+        <input type="text" name="fullname" placeholder="Nama Lengkap" required>
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="input-group">
+        <input type="text" name="nim" placeholder="NIM / Username" required>
+        <i class="fas fa-id-badge"></i>
+      </div>
+      <div class="input-group">
+        <input type="email" name="email" placeholder="Email UNKLAB" required>
+        <i class="fas fa-envelope"></i>
+      </div>
+      <div class="input-group">
+        <input type="password" name="password" placeholder="Password" required>
+        <i class="fas fa-lock"></i>
+      </div>
+      <div class="input-group">
+        <input type="password" name="confirm_password" placeholder="Konfirmasi Password" required>
+        <i class="fas fa-lock"></i>
+      </div>
+      <button type="submit" class="register-btn">Daftar</button>
+    </form>
+    <div class="footer-text">
+      Sudah punya akun? <a href="login.html">Masuk di sini</a>
+    </div>
+  </div>
+
+</body>
+</html>
